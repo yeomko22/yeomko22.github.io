@@ -64,6 +64,7 @@ body {
 
   > .content {
     flex-grow: 1;
+    padding-bottom: $section-spacing * 2;
   }
 }
 
@@ -146,8 +147,13 @@ body {
   body {
     flex-direction: row;
     height: 100vh;
-    overflow: auto;
-    > * { max-height: 100vh; overflow: auto; }
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    > * {
+      max-height: 100vh; 
+      overflow-y: auto; 
+      -webkit-overflow-scrolling: touch;
+    }
   }
 
   /* Undo mobile CSS */
@@ -184,7 +190,9 @@ body {
   .container {
     background: $body-bg;
     color: $body-color;
-    padding: $section-spacing * 2;
+    padding: $section-spacing * 2
+             $section-spacing * 2
+             0;
     height: 100vh;
 
     > header {
