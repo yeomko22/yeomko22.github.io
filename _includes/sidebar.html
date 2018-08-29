@@ -1,23 +1,6 @@
 <div id="sidebar">
-<p>hello</p>
   <header>
-    <{% if page.layout == "index" %}h1{% else %}div{% endif %} class="site-title">
-      <a href="{{ site.baseurl }}/">
-        {% unless page.url == "/" %}
-          <span class="back-arrow icon">{% include svg/back-arrow.svg %}</span>
-        {% endunless %}
-
-        "여기가 사이드 바 제목인건가"
-      </a>
-    </{% if page.layout == "index" %}h1{% else %}div{% endif %}>
-    <p class="lead">{{ site.description }}</p>
+    <p class="lead">"Hyeong Jun Kim"</p>
   </header>
   {% include sidebar-nav-links.html %}
-
-  {% if site.version %}
-    <span class="site-version">Currently v{{ site.version }}</span>
-  {% endif %}
-
-  {% include sidebar-icon-links.html %}
-  {% include copyright.html %}
 </div>
