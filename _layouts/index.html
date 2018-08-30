@@ -22,7 +22,7 @@ layout: default
       {{ post.content }}
     {% endif %}
 
-    {% if post.excerpt %}
+    <!-- {% if post.excerpt %}
       {% comment %}Excerpt may be equal to content. Check.{% endcomment %}
       {% capture content_words %}
         {{ post.content | number_of_words }}
@@ -34,7 +34,7 @@ layout: default
       {% if content_words != excerpt_words %}
         <a href="{{ site.baseurl }}{{ post.url }}">More &hellip;</a>
       {% endif %}
-    {% endif %}
+    {% endif %} -->
   </article>
   {% endfor %}
 </div>
