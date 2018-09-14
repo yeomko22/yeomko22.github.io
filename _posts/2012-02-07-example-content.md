@@ -2,6 +2,18 @@
 layout: post
 title: Example content
 ---
+---
+## Work Experiences
+
+<img src="https://yeomko22.github.io/images/clova.jpg" width="200" height="200" style="float:left;"/>
+
+&nbsp;&nbsp;&nbsp;&nbsp; **Naver Clova AI**  
+
+&nbsp;&nbsp;&nbsp;&nbsp; Software Developer Internship  
+&nbsp;&nbsp;&nbsp;&nbsp; Sept 2018 - Present  
+
+&nbsp;&nbsp;&nbsp;&nbsp; Developing AI applied service prototypes  
+&nbsp;&nbsp;&nbsp;&nbsp; Experimenting deeplearning models in real services
 
 
 <div class="message">
